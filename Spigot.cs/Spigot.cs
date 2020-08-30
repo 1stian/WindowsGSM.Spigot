@@ -17,8 +17,8 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.Spigot", // WindowsGSM.XXXX
             author = "1stian",
             description = "WindowsGSM plugin that provides support for Minecraft: Spigot Server",
-            version = "1.0",
-            url = "https://github.com/BattlefieldDuck", // Github repository link (Best practice)
+            version = "1.1",
+            url = "https://github.com/1stian/WindowsGSM.Spigot", // Github repository link (Best practice)
             color = "#fc7f03" // Color Hex
         };
 
