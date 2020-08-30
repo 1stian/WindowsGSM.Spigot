@@ -14,4 +14,4 @@ First time install of servers, can take up to 15-30mins. Depending on your PC/se
 Updatating will not take as much time. Do not delete **build** folder from the serverfiles directory. During the instalation, it can seem it's getting stuck or frozen at some times. This is because how BuildTools run that compiles the spigot.jar. But don't worry, it's going about doing its things. So just hold on and drink a coffee!
 
 ### License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BattlefieldDuck/WindowsGSM.ASTRONEER/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BattlefieldDuck/WindowsGSM.Spigot/blob/master/LICENSE) file for details
