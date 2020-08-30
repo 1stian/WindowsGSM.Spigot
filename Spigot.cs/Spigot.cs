@@ -208,7 +208,7 @@ namespace WindowsGSM.Plugins
             if (!File.Exists(batchFile) && !File.Exists(buildFile))
             {
                 StringBuilder sb = new StringBuilder();
-                sb.Append("curl.exe https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar -o BuildTools.jar");
+                sb.Append("curl.exe https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar --ssl-no-revoke -o BuildTools.jar");
                 File.WriteAllText(batchFile, sb.ToString());
 
                 StringBuilder sb2 = new StringBuilder();
